@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    color: yellow;
+    padding: 20px;
+    float: left;
+    margin: 0;
+    margin-left: 50px;
+}
+.nav_links{
+    float: right;
+    margin-right: 30px;
+    padding: 30px;
+
+
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+li:nth-child(4){
+    color: yellow;
+}
+li:hover{
+    color: brown;
+}
+.serv{
+    text-align: center;   
+     width: 100%;
+     text-align: center;
+     margin-bottom: 50px;
+}
+.text{
+    font-size: small;
+    color: gray;
+}
+.teams{
+    width: 70%;
+    margin: auto;
+}
+.person1{
+    text-align: center;
+    float: left;
+    width: 33.33333333333333%;
+}
+.image{
+    border: 5px gainsboro solid;
+    border-radius: 50%;
+    width: 150px;
+}
+.icons{
+    font-size: 20px;
+}
+.icon{
+    padding: 5px;
+
+}
+.clear{
+    clear: both;
+}
+.class_text{
+    width: 70%;
+    margin: auto;
+}
+.last_text{
+    text-align: center;
+    color: grey;
+    font-size: small;
+    margin-top: 50px;
+}
